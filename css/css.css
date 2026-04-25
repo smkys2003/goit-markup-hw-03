@@ -1,277 +1,197 @@
 body {
-    font-family: "roboto" ;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
-    width: 1440px;
-}
-
-*,
-*::before,
-*::after {
-box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    border-bottom: 1px solid rgba(231, 233, 252, 1);
-}
-
-.container {
-    max-width: 1158px;
-}
-.title {
-    font-weight: bold;
-    line-height: 1.6;
-    height: 120px;
-    text-align: center;
-    font-size: 56px;
-}
-
-.button {
-    background-color: #4D5AE5;
-    color:#FFFFFF;
-    letter-spacing: 4%;
-    cursor: pointer;
-    size: 16px;
-    width: 169px;
-    height: 56px;
-    border: none;
-
-}
-
-
-
-.button {
-    margin-top: 48px;
-}
-.button:hover {
-    background-color: #404BBF;
-}
-
-
-.info {
     color: #434455;
-}
-
-.info:hover {
-    color: #404BBF;
-}
-
-.number{
-color: #434455;
-}
-
-.number:hover {
-    color: #404BBF;
-}
-
-nav {
-    color: #2E2F42;
-}
-
-nav:hover {
-    color: #404BBF;
-}
-
-
-.studio:active {
-    text-decoration: underline;
-}
-
-
-.portfolio  h3 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-
-}
-
-
-.web {
-    color: #4D5AE5;
-}
-
-
-.web2 {
-    color: #F4F4FD;
-    
-}
-
-footer {
-    color: #F4F4FD;
-}
-
-ul {
-    list-style: none;
-}
-
-
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1158px;
     background-color: #FFFFFF;
 }
 
-nav ul {
-    display: flex;
-    margin-left: 156px;
-    gap: 40px;
-    color: #2E2F42;
-    
+.site-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #4d5ae5;
+
+}
+
+.studio {
+    color: #2e2f42;
+}
+
+.navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.navigation:hover,
+.navigation:focus {
+    color: #404bbf;
 }
 
 .contact-information {
-    display: flex;
-    margin-right: 156px;
-    gap: 40px;
-    flex-shrink: 0;
-    margin-left: 332px;
-
-}
-
-header .container {
-    display: flex;
-     margin-bottom: 24px;
-    margin-top: 24px;
-}
-
-.logo-header {
-    margin-right: 76px;
-}
-
-.navigation a {
-    color: #2E2F42;
-}
-
-
-.background {
-    background-color: #2E2F42;
-    height: 600px;
-    margin-right: 0;
-    padding-right: 0;
-    width: 1470px;
-    color: #FFFFFF;
-}
-
-.order-service {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 188px;
-    padding-bottom: 292px;
-    padding-left: 472px;
-    padding-right: 472px;
-
-}
-
-.description{
-    display: flex;
-    gap: 24px;
-    height: 344px;
-    margin-left: 156px;
-    margin-right: 156px;
-}
-
-.description-text {
-    width: 264px;
-    height: 104px;
-    margin: auto auto;
+    font-style: normal;
     
 }
 
-.team {
+.info {
+    font-size: 16px;
+    line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+}
+
+.info:hover,
+.info:focus {
+    color: #404bbf;
+}
+
+.first-section {
+    background-color: #2e2f42;    
+}
+
+.title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+}
+
+
+.button {
+    background-color:#4D5AE5;
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+    background-color: #404BBF;
+}
+
+.second-title {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color:#2e2f42;
+}
+
+.description {
+    font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+}
+
+.third-section {
     background-color: #F4F4FD;
-    align-items: center;
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    width: 1480px;
+
 }
 
-.image ul {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.third-title {
+     font-size: 36px;
+     line-height: 1.11;
+     text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: #2e2f42;
+       
 }
 
-.team h2 {
-    margin-bottom: 72px;
-    font-weight: 700;
+.members {
+    background-color:  #FFFFFF;
+}
+
+.names {
+    font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color:#2e2f42;
+}
+
+.fourth-title {
     font-size: 36px;
+     line-height: 1.11;
+     text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: #2e2f42;
 }
 
-.portfolio h3 {
-    margin-top: 120px;
-    margin-bottom: 72px;
+.footer {
+    background-color: #2e2f42;
+
 }
 
+.footer-paragraph {
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing:0.02em;
+}
 
-.portfolio-image ul {
+.studio-second {
+    color: #f4f4fd;
+}
+
+img {
+    display: block;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-block {
     display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    color: #434455;
-}
-.portfolio-image {
-    margin-left: 156px;
-    margin-right: auto;
-    overflow: hidden;
+    
+    
 }
 
-.card {
-    display: block;
+.container {
+    width: 1158px;
+    margin: 0 auto;
+     padding: 0 15px;
 }
 
-.card img {
-    display: block;
-}
-.card-text {
-    border: 1px solid #E7E9FC ;
-    padding: 32px 16px;
+.nav-panel {
+    display: flex;
+    align-items: center;
 
 }
 
+.site-logo {
+    margin-right: 76px;
 
-.end {
-    width: 1480px;
-    background-color: #2E2F42;
-    height: 312px;
-    margin-top: 120px;
 }
 
-.final {
-    height: 112px;
-    flex-direction: column;
-    width: 264px;
-    margin-left:156px;
-    padding-top: 100px;
+.nav-items {
+    display: flex;
+    gap: 40px;
+
 }
 
-.image img {
-    display: block;
+.navigation {
+    padding: 24px 0 24px;
+
 }
 
-.text-image {
-    background-color: white;
-    padding: 32px 16px;
-}
-
-.card-one {
-    box-shadow:0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-}
-
-.final h2 {
-    margin-bottom: 16px;
+.info-items {
+    display: flex;
+    gap: 40px;
 }
