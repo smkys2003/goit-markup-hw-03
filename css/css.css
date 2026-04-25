@@ -298,7 +298,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 
 }
 
-.portfolio-items {
+.portfolio-items:first-child {
 width: calc((100% - 48px) / 3); 
 }
 
