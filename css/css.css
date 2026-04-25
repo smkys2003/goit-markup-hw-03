@@ -184,12 +184,12 @@ img {
 }
 
 .navigation {
-    padding: 24px 0 24px;
+     padding: 24px 0;
 }
 
 .info-items {
     display: flex;
-    gap: 40px;
+    gap:40px;
 }
 
 .header-content {
