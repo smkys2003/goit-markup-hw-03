@@ -157,12 +157,6 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.nav-block {
-    display: flex;
-    
-    
-}
-
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -190,6 +184,7 @@ img {
 .info-items {
     display: flex;
     gap:40px;
+
 }
 
 .header-content {
