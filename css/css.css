@@ -239,9 +239,10 @@ display: flex;
 gap: 24px;
 }
 
-.benefits-items:nth-child(1) {
-  width: calc((100% - 72px) / 4);
+.benefits-items {
+  width: calc((100% - 3 * 24px) / 4);
 }
+
 
 
 
