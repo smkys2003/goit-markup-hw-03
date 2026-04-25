@@ -180,7 +180,7 @@ img {
 
 .nav-items {
     display: flex;
-    gap: 40px;
+    gap:40px;
 }
 
 .navigation {
@@ -194,4 +194,6 @@ img {
 
 .header-content {
     display: flex;
+    align-items: center;
 }
+
