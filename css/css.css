@@ -172,26 +172,26 @@ img {
 .nav-panel {
     display: flex;
     align-items: center;
-
 }
 
 .site-logo {
     margin-right: 76px;
-
 }
 
 .nav-items {
     display: flex;
     gap: 40px;
-
 }
 
 .navigation {
     padding: 24px 0 24px;
-
 }
 
 .info-items {
     display: flex;
     gap: 40px;
+}
+
+.header-content {
+    display: flex;
 }
