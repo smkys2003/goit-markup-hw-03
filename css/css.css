@@ -248,4 +248,33 @@ gap: 24px;
 
 .names {
     margin-bottom: 8px;
+    text-align: center;
+    
+}
+
+.third-section {
+    padding: 120px 0;
+
+}
+
+.third-title {
+    margin-bottom: 72px;
+}
+
+.workers {
+    display: flex;
+    gap: 24px;
+}
+
+.members{
+     width: calc((100% - 72px) / 4); 
+      border-radius: 0px 0px 4px 4px; 
+}
+
+.workers-description {
+    padding: 32px 0;
+}
+
+.description {
+    text-align: center;
 }
