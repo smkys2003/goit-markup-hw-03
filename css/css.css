@@ -182,9 +182,8 @@ img {
 }
 
 .info-items {
-    display: flex;
+    display:flex;
     gap:40px;
-
 }
 
 .header-content {
