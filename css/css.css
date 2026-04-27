@@ -248,7 +248,7 @@ display: flex;
 gap: 24px;
 }
 
-.benefits-items:first-child {
+.benefits-items {
 width: calc((100% - 72px) / 4);
 }
 
