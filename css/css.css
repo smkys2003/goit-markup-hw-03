@@ -19,6 +19,15 @@ body {
     
 }
 
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
 .studio {
     color: #2e2f42;
 }
