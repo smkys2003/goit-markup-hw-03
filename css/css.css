@@ -8,6 +8,19 @@ body {
     background-color: #FFFFFF;
 }
 
+* {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 ,h2 ,h3 , h4 , p {
+    margin: 0;
+    padding: 0;
+}
 .site-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -21,6 +34,7 @@ body {
 
 ul {
     list-style: none;
+    
 }
 
 img {
@@ -47,6 +61,7 @@ img {
 
 .contact-information {
     font-style: normal;
+    margin-left: auto;
     
 }
 
@@ -253,7 +268,14 @@ width: calc((100% - 72px) / 4);
 }
 
 
-
+.names-benefits {
+    margin-bottom: 8px;
+    font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color:#2e2f42;
+}
 
 .names {
     margin-bottom: 8px;
